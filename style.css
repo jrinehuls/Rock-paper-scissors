@@ -1,0 +1,82 @@
+html {
+    background-color: aqua;
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    text-align: center;
+    margin: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+button, img {
+    border-radius: 20px;
+    padding: 0px;
+}
+
+button {
+    border: 5px solid;
+    height: 210px;
+    margin: 0px 100px 0px 100px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 150px 50px 150px;
+    justify-content: center;
+    background-color: mediumpurple;
+}
+
+.round {
+    display: flex;
+    height:100px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+.scoreboard {
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.scoreboard .score {
+    display: flex;
+    margin-top: 15px;
+    height: 80px;
+    padding: 20px;
+    font-size: 40px;
+    color: dodgerblue;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.player, .computer {
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.winner {
+    text-align: center;
+    font-weight: 900;
+    margin: 20px;
+    font-size: 36px;
+}
