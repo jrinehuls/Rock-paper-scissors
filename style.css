@@ -24,15 +24,16 @@ button, img {
 button {
     border: 5px solid;
     height: 210px;
-    margin: 0px 100px 0px 100px;
+    margin: 20px 100px 20px 100px;
 }
 
 .buttons {
     display: flex;
     flex-direction: row;
-    padding: 50px 150px 50px 150px;
-    justify-content: center;
+    padding: 30px 50px 30px 50px;
+    justify-content: space-evenly;
     background-color: mediumpurple;
+    flex-wrap: wrap;
 }
 
 .round {
